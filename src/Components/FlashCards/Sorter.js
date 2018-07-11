@@ -37,8 +37,10 @@ class Sorter extends Component{
         return (
             <div>
                 <Card word={this.state.word} flipCard={this.flipCard}/>
-                <div className="RandomWordButton" onClick={this.randomWord}> 
-                    Random Word 
+                <div className="random" onClick={this.randomWord}>
+                    <div className="random-content"> 
+                        Random Word 
+                    </div>
                 </div>
            </div>
         )

@@ -1,0 +1,19 @@
+.title {
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.title-main {
+    font-size: 80px;
+}
+
+.title:hover {
+    cursor: default;
+}
+
+.subtitle {
+    font-size: 20px;
+}

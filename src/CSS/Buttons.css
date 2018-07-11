@@ -1,18 +1,18 @@
-.card {
-    font-size: 40px;
+.random {
+    width: 100px;
+    height: 50px;
+    border: black solid 2px;
     margin: 20px;
-    width: 350px;
-    height: 200px;
-    position:relative;
+    position: relative;
     color: white;
-}
+  }
 
-.card-content {
+  .random-content {
     position: absolute;
     top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
-}
-.card:hover {
+  }
+  .random:hover {
     cursor: pointer;
-}
+  }

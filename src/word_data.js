@@ -10,7 +10,7 @@ let placeData = [
     {english: "bedroom", arabic: "غُرفة النّوم/غرف النّوم", category: "place-مكان"},
     {english: "kitchen", arabic: "مَطبَخ/ الطابخ", category: "place-مكان"},
     {english: "ceiling", arabic: "أسقُف/سقف", category: "place-مكان"},
-    {english: "door", arabic: "باب/ألبواب", category: "place-مكان"},
+    {english: "door", arabic: "باب/أبواب", category: "place-مكان"},
     {english: "window", arabic: "شُبّاك/شبابيك", category: "place-مكان"},
     {english: "wall", arabic: "حائِط/حوائِط/جِدار/جُدران", category: "place-مكان"},
     {english: "stairs", arabic: "سُلّم/سلالِم", category: "place-مكان"},

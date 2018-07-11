@@ -11,7 +11,9 @@ const Card = (props) => {
     else {
         return (
             <div className="card" onClick={props.flipCard}>
-                {props.word}
+                <div className="card-content">
+                    {props.word}
+                </div>
             </div>
         )
     }
