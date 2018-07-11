@@ -1,5 +1,5 @@
 let placeData = [
-    {english: "blacony", arabic: "شرفة", category: "place-مكان"},
+    {english: "balcony", arabic: "شرفة", category: "place-مكان"},
     {english: "internal", arabic: "ّداخلي", category: "place-مكان"},
     {english: "external", arabic: "ّخارجي", category: "place-مكان"},
     {english: "halls/class", arabic: "الصفوف/القاعات", category:"place-مكان"},
@@ -14,7 +14,7 @@ let placeData = [
     {english: "window", arabic: "شُبّاك/شبابيك", category: "place-مكان"},
     {english: "wall", arabic: "حائِط/حوائِط/جِدار/جُدران", category: "place-مكان"},
     {english: "stairs", arabic: "سُلّم/سلالِم", category: "place-مكان"},
-    {english: "entrance", arabic: "مَدخَل/ملداخِل", category: "place-مكان"},
+    {english: "entrance", arabic: "مَدخَل/مداخِل", category: "place-مكان"},
     {english: "apartment", arabic: "شقّة/شُقق", category: "place-مكان"},
     {english: "house", arabic: "بيت/بُيوت", category: "place-مكان"},
     {english: "courtyard", arabic: "باحة/باحات", category:  "place-مكان"},
@@ -24,3 +24,7 @@ let placeData = [
     {english: "chimeny", arabic: "مدخنة/مداخِن", category: "place-مكان"},
     {english: "roof", arabic: "سطح/أسطُح", category: "place-مكان"}
 ]
+
+module.exports = {
+    placeData
+}

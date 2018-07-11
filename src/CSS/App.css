@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  display:grid;
+}
+
+.RandomWordButton {
+  width: 100px;
+  height: 50px;
+  border: black solid 2px;
+  margin: 20px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+.RandomWordButton:hover {
+  cursor: pointer;
+}

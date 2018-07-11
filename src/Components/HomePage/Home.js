@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-
+import FlashCard from '../FlashCards/Sorter';
 
 class Home extends Component{
 
 
     render() {
         return (
-            <div> Home </div>
+            <FlashCard />
         )
     }
 }
