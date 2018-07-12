@@ -1,16 +1,26 @@
 .App {
-  text-align: center;
-  display:grid;
+min-height: 100%;
 }
 
+/* CSS grids works for its direct children */
 
 html {
   background: rgb(255,200,3);
   background: linear-gradient(339deg, rgba(255,200,3,1) 0%, rgba(0,175,187,1) 38%, rgba(0,112,177,1) 100%); 
-  height: 100%; 
+  background-repeat: no-repeat;
+  min-height: 100%; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
+
+
+.background {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  font-family: 'Roboto', sans-serif;
+}

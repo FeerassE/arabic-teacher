@@ -2,12 +2,14 @@
     color: white;
     margin-top: 20px;
     margin-left: 20px;
-
-    font-family: 'Fjalla One', sans-serif;
+    height: 220px;
+    grid-column: 1 / span 2;
 }
 
 .title-main {
     font-size: 80px;
+    font-family: 'Fjalla One', sans-serif;
+
 }
 
 .title:hover {
@@ -15,5 +17,7 @@
 }
 
 .subtitle {
+    font-family: 'Lobster', cursive;
+
     font-size: 20px;
 }

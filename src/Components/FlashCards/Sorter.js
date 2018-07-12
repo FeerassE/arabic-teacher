@@ -35,7 +35,7 @@ class Sorter extends Component{
 
     render() {
         return (
-            <div>
+            <div className="flash-card-module">
                 <Card word={this.state.word} flipCard={this.flipCard}/>
                 <div className="random" onClick={this.randomWord}>
                     <div className="random-content"> 

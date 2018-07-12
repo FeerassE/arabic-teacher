@@ -8,7 +8,9 @@ import Home from './Components/HomePage/Home';
 class App extends Component {
   render() {
     return (
-      <Home />
+      <div className="App">
+        <Home />
+      </div>
     );
   }
 }
@@ -19,3 +21,7 @@ export default App;
 // Maybe I could make it look like the sea and the sky
 // The sky has the cards from as clouds
 // At night the letters become stars in the night?
+
+
+// Add about me
+// 

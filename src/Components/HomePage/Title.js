@@ -11,32 +11,32 @@ class Title extends Component {
 
     hoverTitleEvent(){
         this.setState({hoverTitle: !this.state.hoverTitle})
+        console.log(this.state.hoverTitle)
     }
 
     render(){
-        if(this.state.hoverTitle === true) {
             return(
                 <div className="title" 
-                onMouseLeave={this.hoverTitleEvent}>
-                    <div className="title-main">
-                        مدرس اللغة العربية
-                    </div>
+                onMouseLeave={this.hoverTitleEvent}
+                onMouseEnter={this.hoverTitleEvent}
+                >
+                {this.state.hoverTitle? 
+                                <div className="title-main">
+                                    مدرس اللغة العربية
+                                </div>
+                                :
+                                <div>
+                                    <div className="title-main">
+                                        Arabic Teacher
+                                    </div>
+                                    <div className="subtitle">
+                                        By Feerass Ellid
+                                    </div>
+                                </div>
+                }
                 </div>
             )
         }
-        else {
-            return(
-                <div className="title" onMouseEnter={this.hoverTitleEvent}>
-                    <div className="title-main">
-                        Arabic Teacher
-                    </div>
-                    <div className="subtitle">
-                    By Feerass Ellid
-                    </div>
-                </div>
-            )
-        }
-    }
 }
 
 export default Title;
