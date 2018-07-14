@@ -39,7 +39,7 @@ class Sorter extends Component{
                 <Card word={this.state.word} flipCard={this.flipCard}/>
                 <div className="random" onClick={this.randomWord}>
                     <div className="random-content"> 
-                        Random Word 
+                        Random  
                     </div>
                 </div>
            </div>

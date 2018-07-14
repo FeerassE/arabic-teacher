@@ -3,6 +3,7 @@ import './CSS/App.css';
 import './CSS/Card.css';
 import './CSS/Buttons.css';
 import './CSS/Title.css';
+import './CSS/Animations.css';
 import Home from './Components/HomePage/Home';
 
 class App extends Component {

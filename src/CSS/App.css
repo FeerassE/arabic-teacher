@@ -16,11 +16,20 @@ html {
 }
 
 
-
-.background {
+.home {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr;
 
   font-family: 'Roboto', sans-serif;
+}
+
+
+@media(max-width: 490px){
+
+.home {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}  
+
 }

@@ -5,7 +5,7 @@ import Title from './Title.js';
 class Home extends Component{
     render() {
         return (
-            <div className="background">
+            <div className="home fade-in one">
                 <Title />
                 <FlashCard />
             </div>

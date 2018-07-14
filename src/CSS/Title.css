@@ -2,22 +2,63 @@
     color: white;
     margin-top: 20px;
     margin-left: 20px;
-    height: 220px;
-    grid-column: 1 / span 2;
+    height: 160px;
+    grid-column: 2 / span 2;
 }
 
-.title-main {
+.title-main-english {
     font-size: 80px;
     font-family: 'Fjalla One', sans-serif;
+}
 
+.title-main-arabic {
+    font-size: 55px;
+    font-family: 'Cairo', sans-serif;
 }
 
 .title:hover {
-    cursor: default;
+    cursor: pointer;
 }
 
-.subtitle {
+.subtitle-english {
     font-family: 'Lobster', cursive;
-
     font-size: 20px;
+}
+
+.subtitle-arabic {
+    font-family: 'Lalezar', cursive;
+    font-size: 20px;
+
+    padding-left: 268px;
+}
+
+
+@media(max-width: 490px){
+
+.title{
+    margin: 0px;
+    margin-top: 20px;
+    grid-column: 2; 
+
+}
+.title-main-arabic {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    font-size: 40px;
+}
+
+.title-main-english {
+    font-size: 60px;
+}
+
+.subtitle-arabic{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    font-size: 15px;
+}
+
+
+
 }
