@@ -5,8 +5,8 @@ min-height: 100%;
 /* CSS grids works for its direct children */
 
 html {
-  background: rgb(255,200,3);
-  background: linear-gradient(339deg, rgba(255,200,3,1) 0%, rgba(0,175,187,1) 38%, rgba(0,112,177,1) 100%); 
+  background: rgb(91,247,255);
+  background: linear-gradient(0deg, rgba(91,247,255,1) 0%, rgba(0,111,195,1) 82%); 
   background-repeat: no-repeat;
   min-height: 100%; 
   -webkit-background-size: cover;
